@@ -1,0 +1,47 @@
+Amazon Sales Analysis
+
+Tech Stack:
+Python, Pandas, Excel, Power BI
+
+Purpose:
+Analyze sales and revenue data.
+
+Features:
+- Sales trend analysis
+- Revenue dashboard
+- Data cleaning and preprocessing
+
+Future Improvements:
+- Real-time dashboard
+- Automated reporting
+
+
+Student Performance Dashboard
+
+Tech Stack:
+Excel, Power BI
+
+Purpose:
+Track student performance.
+
+Features:
+- Subject-wise analysis
+- Attendance tracking
+- Performance reports
+
+AI Chatbot
+
+Tech Stack:
+Python, Streamlit, Transformers, HuggingFace
+
+Purpose:
+Answer user queries and provide recommendations.
+
+Features:
+- Conversational AI
+- Context-aware responses
+- Personalized recommendations
+
+Future Improvements:
+- Voice support
+- Better memory
