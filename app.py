@@ -73,3 +73,5 @@ Question:
 
     except Exception as e:
         st.error(f"Error: {str(e)}")
+        st.write("API Key Loaded:", bool(api_key))
+        
