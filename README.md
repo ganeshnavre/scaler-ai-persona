@@ -111,7 +111,7 @@ pip install -r requirements.txt
 Create `.env`
 
 ```env
-OPENROUTER_API_KEY=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
+OPENROUTER_API_KEY=sk-or-v1-ac8450d6a......
 ```
 
 ### Build Vector Database
