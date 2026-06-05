@@ -1,9 +1,15 @@
+import os
 import chromadb
 from sentence_transformers import SentenceTransformer
 
 client = chromadb.PersistentClient(path="chroma_db")
 
-collection = client.get_collection(name="ganesh_resume")
+collections = [c.name for c in client.list_collections()]
+
+if "ganesh_resume" not in collections:
+    import ingest
+
+collection = client.get_collection("ganesh_resume")
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
