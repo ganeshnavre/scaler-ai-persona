@@ -14,6 +14,7 @@ This project creates an AI persona of Ganesh Navre that can:
 
 ## Architecture
 
+```text
 Resume PDF + Projects Data
         |
         v
@@ -41,7 +42,7 @@ Resume PDF + Projects Data
         |
         v
  Final Response
-
+```
 ## Tech Stack
 
 - Python
@@ -61,6 +62,15 @@ Resume PDF + Projects Data
 - Grounded responses
 - Streamlit chat interface
 - OpenRouter LLM integration
+
+## RAG Grounding
+
+The chatbot is grounded on:
+
+- Resume PDF
+- Project documentation
+
+Responses are generated only from retrieved context and are designed to avoid hallucinations by using Retrieval-Augmented Generation (RAG).
 
 ## Project Structure
 
@@ -118,14 +128,13 @@ streamlit run app.py
 
 ## Deployment
 
-Chat URL:
+### Chat URL
 
-Add your Streamlit deployment URL here.
+https://ganeshnavre-scaler-ai-persona-app-22wqaw.streamlit.app/
 
-Example:
+### GitHub Repository
 
-https://your-app.streamlit.app
-
+https://github.com/ganeshnavre/scaler-ai-persona
 ## Cost Breakdown
 
 ### Development Cost
